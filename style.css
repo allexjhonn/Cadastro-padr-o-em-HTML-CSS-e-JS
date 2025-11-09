@@ -1,0 +1,176 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+main {
+    position: relative;
+    width: auto;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.saudacao {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.nome {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo {
+    position: relative;
+    width: 60%;
+    height: 90%;
+    background-color:#ffffff05;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 1px white;
+}
+
+main #inputNome {
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    font-size: 1.3rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+main #inputNome:focus {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.registro {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+a {
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    background-color:#ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.telacadastro {
+    width: 25%;
+    height: 30%;
+    background-color:#ffffff05;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 1px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.email {
+    width: 70%;
+    height: auto;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;  
+    gap: 3px;
+}
+
+.email #inputEmail {
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    background-color:#ffffff05;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 1px white;
+    padding: 5px;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border: none;
+}
+
+.senha {
+    width: 70%;
+    height: auto;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column; 
+    gap: 3px;
+}
+
+.senha #inputSenha {
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    background-color:#ffffff05;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 1px white;
+    padding: 5px;
+    color: white;
+}

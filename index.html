@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas vindas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="inicio">
+        <main>
+            <div class="saudacao">
+                <h1>Bem vindo à nossa tela de cadastro</h1>
+                <p>Digite seu primeiro nome para iniciarmos:</p>
+            </div>
+            <div class="nome">
+                <div class="fundo"></div>
+                <input type="text" id="inputNome">
+            </div>
+        </main>
+        <a href="#cadastro" id="btnWelcome" onclick="avancar()">Avançar</a>
+    </section>
+
+    
+
+    <section id="cadastro">
+        <h1 id="msgCadastro">Realize seu cadastro</h1>
+        <div class="telacadastro">
+            <div class="email">
+                <p>Email</p>
+                <input type="email" id="inputEmail" placeholder="usuario@gmail.com">
+            </div>
+            <div class="senha">
+                <p>Senha</p>
+                <input type="password" id="inputSenha" placeholder="********">
+            </div>
+            <a href="#" onclick="finish()">Cadastrar</a>
+        </div>
+    </section>
+
+    <p class="registro">@allexjhonn</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
